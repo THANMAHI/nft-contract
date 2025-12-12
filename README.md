@@ -1,10 +1,10 @@
-# 🖼️ NftCollection — ERC-721 NFT Smart Contract  
+# NftCollection — ERC-721 NFT Smart Contract  
 A fully implemented ERC-721–compatible NFT collection built using **Hardhat**, **OpenZeppelin**, and **Docker**.  
 This project supports minting, transferring, pausing, burning, and metadata via tokenURI — along with a complete automated test suite.
 
 ---
 
-## 🚀 Project Features
+## Project Features
 
 ### ✔ Fully ERC-721 Compatible
 - Unique token IDs  
@@ -46,7 +46,7 @@ All **tests pass successfully**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 nft-contract/
 │
@@ -64,7 +64,7 @@ nft-contract/
 
 ---
 
-## 🛠️ Local Development
+##  Local Development
 
 ### Compile Contracts
 npx hardhat compile
@@ -80,7 +80,7 @@ All tests passing
 
 ---
 
-## 🐳 Running With Docker (Reproducible Environment)
+##  Running With Docker (Reproducible Environment)
 
 ### Build Docker image
 docker build -t nft-contract .
@@ -105,7 +105,7 @@ docker run --rm nft-contract
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - Solidity  
 - Hardhat  
 - Ethers.js  
@@ -115,7 +115,7 @@ docker run --rm nft-contract
 
 ---
 
-## 📌 Key Design Decisions
+##  Key Design Decisions
 - Token IDs start from **1**  
 - `maxSupply` strictly enforced  
 - Custom errors for efficiency  
@@ -125,6 +125,6 @@ docker run --rm nft-contract
 
 ---
 
-## 👤 Author
+##  Author
 **Thanmahi Peruri**
 
