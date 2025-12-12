@@ -6,31 +6,31 @@ This project supports minting, transferring, pausing, burning, and metadata via 
 
 ## Project Features
 
-### ✔ Fully ERC-721 Compatible
+###  Fully ERC-721 Compatible
 - Unique token IDs  
 - Owner-only minting  
 - Safe transfers (`safeTransferFrom`)  
 - Approval & operator approval system  
 - Metadata URI via `tokenURI()`
 
-### ✔ Collection Rules & Limits
+###  Collection Rules & Limits
 - Configurable **maxSupply**  
 - Prevents over-minting  
 - Pausable minting & transfers  
 - Tracks `totalSupply` correctly (mint & burn)
 
-### ✔ Metadata
+###  Metadata
 - Base URI + tokenId format  
   Example:  
   `https://metadata.example/token/1`
 
-### ✔ Security & Validation
+###  Security & Validation
 - Custom errors  
 - Owner-only privileges  
 - Reverts for invalid operations  
 - Pausable contract logic
 
-### ✔ Complete Test Suite
+###  Complete Test Suite
 Includes tests for:
 - Minting  
 - Approvals  
